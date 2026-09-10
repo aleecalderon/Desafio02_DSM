@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ViajemoSV</string>
+
+    <!-- Autenticación -->
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Destinos -->
+    <string name="catalogo_destinos">Catálogo de destinos</string>
+    <string name="agregar_destino">Agregar destino</string>
+    <string name="editar_destino">Editar destino</string>
+    <string name="nombre_destino">Nombre del destino</string>
+    <string name="pais">País</string>
+    <string name="precio">Precio del paquete</string>
+    <string name="descripcion">Descripción del viaje</string>
+    <string name="seleccionar_imagen">Seleccionar imagen</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- Validaciones -->
+    <string name="campo_obligatorio">Este campo es obligatorio</string>
+    <string name="precio_mayor_cero">El precio debe ser mayor que 0</string>
+    <string name="descripcion_minima">La descripción debe tener al menos 20 caracteres</string>
+    <string name="imagen_obligatoria">Debes seleccionar una imagen</string>
+    <string name="contrasenas_no_coinciden">Las contraseñas no coinciden</string>
+
+    <!-- Mensajes -->
+    <string name="destino_guardado">Destino guardado correctamente</string>
+    <string name="destino_actualizado">Destino actualizado correctamente</string>
+    <string name="destino_eliminado">Destino eliminado correctamente</string>
+    <string name="confirmar_eliminacion">¿Deseas eliminar este destino?</string>
+    <string name="bienvenida">Bienvenido a ViajemoSV</string>
+
+
+</resources>

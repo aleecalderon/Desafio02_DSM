@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078327772421",
+    "project_id": "viajemosv-503",
+    "storage_bucket": "viajemosv-503.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078327772421:android:65d5a7bfa31327b7fe236c",
+        "android_client_info": {
+          "package_name": "com.example.viajemosv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj-Z-iMfX0xHsTpEfLOCqDep3Ss1AzNXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
