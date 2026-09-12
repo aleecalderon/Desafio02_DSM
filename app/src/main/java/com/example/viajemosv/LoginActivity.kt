@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
 
                     Toast.makeText(
                         this,
-                        "Inicio de sesión exitoso",
+                        getString(R.string.inicio_sesion_exitoso),
                         Toast.LENGTH_SHORT
                     ).show()
 
@@ -61,7 +61,7 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(
                         this,
                         task.exception?.message
-                            ?: "No se pudo iniciar sesión",
+                            ?: getString(R.string.error_iniciar_sesion),
                         Toast.LENGTH_LONG
                     ).show()
                 }

@@ -64,7 +64,7 @@ class RegisterActivity : AppCompatActivity() {
 
                     Toast.makeText(
                         this,
-                        "Cuenta creada correctamente",
+                        getString(R.string.cuenta_creada),
                         Toast.LENGTH_SHORT
                     ).show()
 
@@ -75,7 +75,7 @@ class RegisterActivity : AppCompatActivity() {
                     Toast.makeText(
                         this,
                         task.exception?.message
-                            ?: "No se pudo crear la cuenta",
+                            ?: getString(R.string.error_crear_cuenta),
                         Toast.LENGTH_LONG
                     ).show()
                 }
