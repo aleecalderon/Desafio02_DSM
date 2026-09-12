@@ -51,6 +51,24 @@
             android:textSize="14sp"
             tools:text="Disfruta de un viaje inolvidable..." />
 
+        <Button
+            android:id="@+id/btnEditarDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/editar_destino"
+            android:textColor="@color/primary_text"
+            android:backgroundTint="@color/accent" />
+
+        <Button
+            android:id="@+id/btnEliminarDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/eliminar"
+            android:textColor="@color/primary_text"
+            android:backgroundTint="@color/primary_light" />
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
