@@ -162,6 +162,11 @@ class AgregarDestinoActivity : AppCompatActivity() {
         }
 
         if (pais == "Selecciona un país") {
+            Toast.makeText(
+                this,
+                getString(R.string.campo_obligatorio),
+                Toast.LENGTH_SHORT
+            ).show()
             return
         }
 
