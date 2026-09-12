@@ -34,6 +34,15 @@
             tools:text="Playa El Tunco" />
 
         <TextView
+            android:id="@+id/tvPaisDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/secondary_text"
+            android:textSize="15sp"
+            tools:text="El Salvador" />
+
+        <TextView
             android:id="@+id/tvPrecioDestino"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

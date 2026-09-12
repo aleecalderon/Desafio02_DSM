@@ -39,6 +39,7 @@ class DestinoAdapter(
         val destino = destinos[position]
 
         holder.binding.tvNombreDestino.text = destino.nombre
+        holder.binding.tvPaisDestino.text = destino.pais
         holder.binding.tvPrecioDestino.text = "$${destino.precio}"
         holder.binding.tvDescripcionDestino.text = destino.descripcion
 
