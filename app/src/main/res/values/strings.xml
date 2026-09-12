@@ -38,5 +38,16 @@
     <string name="confirmar_eliminacion">¿Deseas eliminar este destino?</string>
     <string name="bienvenida">Bienvenido a ViajemoSV</string>
 
+    <string-array name="lista_paises">
+        <item>Selecciona un país</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Nicaragua</item>
+        <item>Costa Rica</item>
+        <item>Panamá</item>
+        <item>Belice</item>
+        <item>México</item>
+    </string-array>
 
 </resources>
