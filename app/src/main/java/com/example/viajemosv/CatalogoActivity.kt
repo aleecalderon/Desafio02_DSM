@@ -1,5 +1,6 @@
 package com.example.viajemosv
 
+import com.google.firebase.auth.FirebaseAuth
 import android.widget.Toast
 import android.content.Intent
 import android.os.Bundle
@@ -30,6 +31,14 @@ class CatalogoActivity : AppCompatActivity() {
         binding.btnAgregarDestino.setOnClickListener {
             val intent = Intent(this, AgregarDestinoActivity::class.java)
             startActivity(intent)
+        }
+
+        binding.btnCerrarSesion.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 
