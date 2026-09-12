@@ -78,6 +78,13 @@ class CatalogoActivity : AppCompatActivity() {
                     .document(destino.id)
                     .delete()
                     .addOnSuccessListener {
+                        if (destino.imagenUri.isNotEmpty()) {
+                            val archivoImagen = java.io.File(destino.imagenUri)
+
+                            if (archivoImagen.exists()) {
+                                archivoImagen.delete()
+                            }
+                        }
 
                         Toast.makeText(
                             this,
